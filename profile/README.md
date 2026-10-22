@@ -178,10 +178,10 @@ We are a multidisciplinary team of software development students working togethe
 
 | Member | Area |
 |---|---|
-| **João Paulo** | Frontend / UI Development |
-| **Cristhian Hatzman** | Backend / Software Development |
-| **Vinícius de Souza** | Data / Networks |
-| **Arthur Fukunaga** | UX/UI Design |
+| **Matheus Ferrari** | Frontend / Backend / |
+| **Leonardo de Lima** | Frontend /Backend / Software Development |
+| **Vinícius de Souza** | Database / Networks / Infraestutura |
+| **Arthur Fukunaga** | UX/UI Design / frontend / Infraestutura |
 
 ---
 
