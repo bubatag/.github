@@ -179,7 +179,7 @@ We are a multidisciplinary team of software development students working togethe
 | Member | Area |
 |---|---|
 | **Matheus Ferrari** | Frontend / Backend |
-| **Leonardo de Lima** | Frontend /Backend / Software Development |
+| **Leonardo de Lima** | Frontend / Backend / Software Development |
 | **Vinícius de Souza** | Database / Networks / Infraestutura |
 | **Arthur Fukunaga** | UX/UI Design / frontend / Infraestutura |
 
