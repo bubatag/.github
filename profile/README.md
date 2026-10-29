@@ -1,60 +1,61 @@
 # 🐂 BUBATAG
 
-### Smart livestock monitoring through IoT, software and data.
+### Monitoramento inteligente de rebanhos por meio de IoT, software e dados.
 
-**BUBATAG** is a technology project focused on **smart buffalo management and animal welfare**, combining **Internet of Things (IoT), embedded systems, software development and data monitoring**.
+**BUBATAG** é um projeto tecnológico focado no **manejo inteligente de búfalos e no bem-estar animal**, combinando **Internet das Coisas (IoT), sistemas embarcados, desenvolvimento de software e monitoramento de dados**.
 
-Our goal is to transform data collected from animals into useful information that can support faster, safer and more informed decisions in livestock management.
-
----
-
-## 🚀 About BUBATAG
-
-Managing buffalo herds across large pasture areas can make it difficult to continuously monitor the location and health of every animal.
-
-**BUBATAG was created to address this challenge.**
-
-Our ecosystem combines a **smart wearable device**, **location monitoring**, **physiological sensors** and an **intuitive web and mobile platform** into an integrated monitoring solution.
-
-### What BUBATAG monitors
-
-- 📍 Animal location
-- ❤️ Heart rate
-- 🌡️ Body temperature
-- 🚨 Alerts for animals outside monitored areas
-- 📊 Herd information and monitoring data
-- 📱 Web and mobile access
-
-> BUBATAG is designed as a decision-support tool, helping producers identify possible changes in animal conditions and respond more quickly when attention may be required.
+Nosso objetivo é transformar os dados coletados dos animais em informações úteis que possam apoiar decisões mais rápidas, seguras e assertivas no manejo do rebanho.
 
 ---
 
-## ⚙️ How It Works
+## 🚀 Sobre o BUBATAG
+
+O manejo de rebanhos de búfalos em grandes áreas de pastagem pode dificultar o monitoramento contínuo da localização e das condições de saúde de cada animal.
+
+**O BUBATAG foi criado para enfrentar esse desafio.**
+
+Nosso ecossistema combina um **dispositivo vestível inteligente**, **monitoramento de localização**, **sensores fisiológicos** e uma **plataforma web e mobile intuitiva** em uma solução integrada de monitoramento.
+
+### O que o BUBATAG monitora
+
+- 📍 Localização do animal
+- ❤️ Frequência cardíaca
+- 🌡️ Temperatura corporal
+- 🚨 Alertas para animais fora das áreas monitoradas
+- 📊 Informações e dados do rebanho
+- 📱 Acesso web e mobile
+
+> O BUBATAG foi desenvolvido como uma ferramenta de apoio à tomada de decisões, ajudando produtores a identificar possíveis alterações nas condições dos animais e agir mais rapidamente quando houver necessidade de atenção.
+
+---
+
+## ⚙️ Como funciona
 
 ```text
         🐂 ANIMAL
            │
            ▼
    ┌─────────────────┐
-   │  SMART COLLAR   │
+   │ COLEIRA INTELIGENTE │
    │                 │
-   │ ESP32 + Sensors │
+   │ ESP32 + Sensores│
    └────────┬────────┘
             │
             ▼
    ┌─────────────────┐
-   │ DATA COLLECTION │
+   │ COLETA DE DADOS │
    │                 │
-   │ Location +      │
-   │ Physiological   │
-   │ Data            │
+   │ Localização +   │
+   │ Dados           │
+   │ Fisiológicos    │
    └────────┬────────┘
             │
             ▼
    ┌─────────────────┐
-   │ BUBATAG SYSTEM  │
+   │ SISTEMA BUBATAG │
    │                 │
-   │ API + Database  │
+   │ API + Banco     │
+   │ de Dados        │
    └────────┬────────┘
             │
        ┌────┴────┐
@@ -63,59 +64,59 @@ Our ecosystem combines a **smart wearable device**, **location monitoring**, **p
        │         │
        └────┬────┘
             ▼
-      🚨 ALERTS &
-       MONITORING
+      🚨 ALERTAS E
+       MONITORAMENTO
 ```
 
-The smart collar collects information from the animal and communicates with the BUBATAG ecosystem.
+A coleira inteligente coleta informações do animal e se comunica com o ecossistema BUBATAG.
 
-The platform processes and presents this information through web and mobile interfaces, allowing producers to monitor their herd remotely.
+A plataforma processa e apresenta essas informações por meio de interfaces web e mobile, permitindo que os produtores monitorem seu rebanho remotamente.
 
-When an animal leaves a monitored area, the system can generate an alert, helping the producer respond more quickly.
+Quando um animal sai de uma área monitorada, o sistema pode gerar um alerta, ajudando o produtor a agir com maior rapidez.
 
 ---
 
-## 🧠 Technology
+## 🧠 Tecnologias
 
-BUBATAG combines multiple areas of software and hardware development:
+O BUBATAG combina diferentes áreas de desenvolvimento de software e hardware:
 
-| Area | Technologies |
+| Área | Tecnologias |
 |---|---|
 | 🌐 Web | React, Next.js, TypeScript, JavaScript |
 | 📱 Mobile | React Native |
 | ⚙️ Backend | Node.js, Express |
-| 🐂 IoT / Embedded | ESP32, Sensors |
-| 🗄️ Databases | SQL / NoSQL |
-| 🐳 Infrastructure | Docker, Cloud Technologies |
-| 🔧 Development | Git, GitHub, REST APIs |
+| 🐂 IoT / Embarcados | ESP32, Sensores |
+| 🗄️ Bancos de Dados | SQL / NoSQL |
+| 🐳 Infraestrutura | Docker, Tecnologias em Nuvem |
+| 🔧 Desenvolvimento | Git, GitHub, APIs REST |
 
-The technology stack is continuously evolving as the project progresses.
+A stack tecnológica continua evoluindo conforme o projeto avança.
 
 ---
 
-## 🧩 Project Architecture
+## 🧩 Arquitetura do Projeto
 
-BUBATAG is organized as an ecosystem of interconnected components:
+O BUBATAG é organizado como um ecossistema composto por diferentes componentes interconectados:
 
 ```text
                     ┌──────────────────┐
-                    │   SMART COLLAR   │
+                    │ COLEIRA INTELIGENTE │
                     │      ESP32       │
                     └────────┬─────────┘
                              │
                              ▼
                     ┌──────────────────┐
-                    │   DATA / NETWORK │
+                    │ DADOS / REDE     │
                     └────────┬─────────┘
                              │
                              ▼
                     ┌──────────────────┐
-                    │    BUBATAG API   │
+                    │    API BUBATAG   │
                     └────────┬─────────┘
                              │
                              ▼
                     ┌──────────────────┐
-                    │     DATABASE     │
+                    │   BANCO DE DADOS │
                     └────────┬─────────┘
                              │
                     ┌────────┴─────────┐
@@ -128,87 +129,87 @@ BUBATAG is organized as an ecosystem of interconnected components:
 
 ---
 
-## 📂 Repositories
+## 📂 Repositórios
 
-The BUBATAG organization contains repositories dedicated to different parts of the project.
+A organização do BUBATAG contém repositórios dedicados às diferentes partes do projeto.
 
-| Repository | Description |
+| Repositório | Descrição |
 |---|---|
-| 🐂 **IoT / Embedded** | Firmware, ESP32 development and sensor integration. |
-| ❤️ **Heart Rate** | Development and testing of physiological monitoring. |
-| 📱 **Mobile** | Mobile application for herd monitoring. |
-| 🌐 **Web** | Web platform and dashboards. |
-| 🔌 **API** | Backend services and system integration. |
-| 🗄️ **Database** | Data modeling and persistence. |
-| 📚 **Documentation** | Technical and academic documentation. |
+| 🐂 **IoT / Embarcados** | Firmware, desenvolvimento com ESP32 e integração dos sensores. |
+| ❤️ **Frequência Cardíaca** | Desenvolvimento e testes do monitoramento fisiológico. |
+| 📱 **Mobile** | Aplicativo mobile para monitoramento do rebanho. |
+| 🌐 **Web** | Plataforma web e dashboards. |
+| 🔌 **API** | Serviços de backend e integração do sistema. |
+| 🗄️ **Banco de Dados** | Modelagem e persistência dos dados. |
+| 📚 **Documentação** | Documentação técnica e acadêmica. |
 
-> Repository names and components may evolve throughout development.
-
----
-
-## 🎯 Our Mission
-
-Our mission is to explore how technology can contribute to **better livestock management and animal welfare**.
-
-We aim to make herd monitoring more **accessible, intuitive and data-driven**, helping producers spend less time searching for information and more time making informed decisions.
+> Os nomes dos repositórios e os componentes podem evoluir ao longo do desenvolvimento.
 
 ---
 
-## 🌱 Academic Project
+## 🎯 Nossa Missão
 
-BUBATAG is being developed as a **Projeto Integrador (PI)** by students of the **Multiplatform Software Development Technology** program at **Fatec Registro – Centro Paula Souza**, Brazil.
+Nossa missão é explorar como a tecnologia pode contribuir para um **melhor manejo do rebanho e para o bem-estar animal**.
 
-The project brings together knowledge from:
-
-- Software Engineering
-- Internet of Things
-- Embedded Systems
-- UI/UX Design
-- Databases
-- Networking
-- Mobile Development
-- Web Development
-- Agile Methodologies
+Buscamos tornar o monitoramento do rebanho mais **acessível, intuitivo e orientado por dados**, ajudando os produtores a gastar menos tempo procurando informações e mais tempo tomando decisões assertivas.
 
 ---
 
-## 👥 Team
+## 🌱 Projeto Acadêmico
 
-We are a multidisciplinary team of software development students working together across different areas of the BUBATAG ecosystem.
+O BUBATAG está sendo desenvolvido como um **Projeto Integrador (PI)** por estudantes do curso de **Tecnologia em Desenvolvimento de Software Multiplataforma** da **Fatec Registro – Centro Paula Souza**, Brasil.
 
-| Member | Area |
+O projeto reúne conhecimentos de:
+
+- Engenharia de Software
+- Internet das Coisas
+- Sistemas Embarcados
+- Design UI/UX
+- Bancos de Dados
+- Redes de Computadores
+- Desenvolvimento Mobile
+- Desenvolvimento Web
+- Metodologias Ágeis
+
+---
+
+## 👥 Equipe
+
+Somos uma equipe multidisciplinar de estudantes de desenvolvimento de software, trabalhando em conjunto em diferentes áreas do ecossistema BUBATAG.
+
+| Integrante | Área |
 |---|---|
 | **Matheus Ferrari** | Frontend / Backend |
-| **Leonardo de Lima** | Frontend / Backend / Software Development |
-| **Vinícius de Souza** | Database / Networks / Infraestutura |
-| **Arthur Fukunaga** | UX/UI Design / frontend / Infraestutura |
+| **Leonardo de Lima** | Frontend / Backend / Desenvolvimento de Software |
+| **Vinícius de Souza** | Banco de Dados / Redes / Infraestrutura |
+| **Arthur Fukunaga** | UX/UI Design / Frontend / Infraestrutura |
 
 ---
 
-## 📈 Project Status
+## 📈 Status do Projeto
 
-🟡 **Active Development**
+🟡 **Em Desenvolvimento Ativo**
 
-BUBATAG is currently under active development, with ongoing work involving:
+O BUBATAG está atualmente em desenvolvimento, com trabalhos em andamento envolvendo:
 
-- IoT hardware
-- Sensor integration
-- Data communication
-- Web and mobile applications
-- Backend services
-- User experience
-- System testing
-
----
-
-## 🤝 Collaboration
-
-We are continuously developing and improving the BUBATAG ecosystem.
-
-If you are interested in **IoT, smart agriculture, animal welfare, software development or technology applied to agribusiness**, feel free to explore our repositories.
+- Hardware IoT
+- Integração de sensores
+- Comunicação de dados
+- Aplicações web e mobile
+- Serviços de backend
+- Experiência do usuário
+- Testes do sistema
 
 ---
 
-# 🐃 Technology working for your herd.
+## 🤝 Colaboração
 
-**BUBATAG — Smart monitoring for better livestock management.**
+Estamos continuamente desenvolvendo e aprimorando o ecossistema BUBATAG.
+
+Se você se interessa por **IoT, agricultura inteligente, bem-estar animal, desenvolvimento de software ou tecnologia aplicada ao agronegócio**, fique à vontade para explorar nossos repositórios.
+
+---
+
+# 🐃 Tecnologia trabalhando pelo seu rebanho.
+
+**BUBATAG — Monitoramento inteligente para um manejo melhor.**
