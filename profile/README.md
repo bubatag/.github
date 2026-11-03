@@ -1,6 +1,6 @@
 <div align="center">
   <img
-    src="assets/logo-bubatag.png"
+    src="assets/group68.png"
     alt="Logo BUBATAG"
     width="450"
   />
