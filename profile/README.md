@@ -1,6 +1,12 @@
-# 🐂 BUBATAG
+<div align="center">
+  <img
+    src="assets/logo-bubatag.png"
+    alt="Logo BUBATAG"
+    width="450"
+  />
 
-### Monitoramento inteligente de rebanhos por meio de IoT, software e dados.
+  <h3>Monitoramento inteligente de rebanhos por meio de IoT, software e dados.</h3>
+</div>
 
 **BUBATAG** é um projeto tecnológico focado no **manejo inteligente de búfalos e no bem-estar animal**, combinando **Internet das Coisas (IoT), sistemas embarcados, desenvolvimento de software e monitoramento de dados**.
 
