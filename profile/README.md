@@ -2,7 +2,7 @@
   <img
     src="assets/logo.png"
     alt="Logo BUBATAG"
-    width="300"
+    width="250"
   />
 </div>
   <h3>Monitoramento inteligente de rebanhos por meio de IoT, software e dados.</h3>
