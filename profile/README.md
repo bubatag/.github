@@ -37,7 +37,7 @@ Nosso ecossistema combina um **dispositivo vestível inteligente**, **monitorame
 ## ⚙️ Como funciona
 
 ```text
-        🐂 ANIMAL
+        🐃 ANIMAL
            │
            ▼
    ┌─────────────────┐
@@ -90,7 +90,7 @@ O BUBATAG combina diferentes áreas de desenvolvimento de software e hardware:
 | 🌐 Web | React, Next.js, TypeScript, JavaScript |
 | 📱 Mobile | React Native |
 | ⚙️ Backend | Node.js, Express |
-| 🐂 IoT / Embarcados | ESP32, Sensores |
+| 🐃 IoT / Embarcados | ESP32, Sensores |
 | 🗄️ Bancos de Dados | SQL / NoSQL |
 | 🐳 Infraestrutura | Docker, Tecnologias em Nuvem |
 | 🔧 Desenvolvimento | Git, GitHub, APIs REST |
@@ -140,7 +140,7 @@ A organização do BUBATAG contém repositórios dedicados às diferentes partes
 
 | Repositório | Descrição |
 |---|---|
-| 🐂 **IoT / Embarcados** | Firmware, desenvolvimento com ESP32 e integração dos sensores. |
+| 🐃 **IoT / Embarcados** | Firmware, desenvolvimento com ESP32 e integração dos sensores. |
 | ❤️ **Frequência Cardíaca** | Desenvolvimento e testes do monitoramento fisiológico. |
 | 📱 **Mobile** | Aplicativo mobile para monitoramento do rebanho. |
 | 🌐 **Web** | Plataforma web e dashboards. |
